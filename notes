@@ -1,0 +1,3 @@
+Redux contains the data-state of the whole app
+Reducers: A reducer is a function that returns the app state
+Application state is a plain JS object
