@@ -1,3 +1,7 @@
 Redux contains the data-state of the whole app
 Reducers: A reducer is a function that returns the app state
 Application state is a plain JS object
+For class component in react to acces props, youuse this.props...
+A container is a react component that has direct connection to state managed by Redux. Containers are aso knowna as smart components as opposed dumb-component
+We only create containers out of components that care about that particular piece of state
+Action is just an object that flows through all of the reducers to either change their state according to the action that ha sjust taken place or don't care bout the action
